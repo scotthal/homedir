@@ -1,0 +1,7 @@
+[user]
+	name = Scott Hallock
+	email = scott@hallocks.net
+[init]
+	defaultBranch = main
+[color]
+	ui = false
