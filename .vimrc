@@ -1,5 +1,5 @@
 set nocp
-filetype one
+filetype on
 syntax on
 
 set noru
@@ -15,3 +15,5 @@ set viminfo=""
 set et
 set ts=2
 set sw=2
+
+colorscheme elflord
