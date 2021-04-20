@@ -8,6 +8,7 @@ setopt AUTO_PUSHD
 setopt APPEND_HISTORY
 setopt HIST_VERIFY
 
+export LANG=en_US.UTF-8
 export MANPATH=$HOME/brew/share/man:/usr/share/man
 export INFOPATH=$HOME/brew/share/info:/usr/share/info
 export HISTSIZE=1000
