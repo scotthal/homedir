@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Idea
+Comment=
+Exec=/snap/bin/idea
+Icon=/snap/intellij-idea-community/current/bin/idea.png
+Path=
+Terminal=false
+StartupNotify=false

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Code
+Comment=
+Exec=/snap/bin/code
+Icon=/snap/code/current/usr/share/code/resources/app/resources/linux/code.png
+Path=
+Terminal=false
+StartupNotify=false
