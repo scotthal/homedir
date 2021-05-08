@@ -1,4 +1,4 @@
-export PATH=$HOME/bin:$HOME/brew/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/snap/bin
+export PATH=$HOME/bin:$HOME/local/bin:$HOME/brew/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/snap/bin
 
 bindkey -v
 unalias -m '*'
