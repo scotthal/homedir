@@ -5,3 +5,5 @@
 	defaultBranch = main
 [color]
 	ui = false
+[credential]
+	helper = cache --timeout 86400
