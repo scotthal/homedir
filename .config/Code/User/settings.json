@@ -5,12 +5,8 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "prettier.proseWrap": "always",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "workbench.startupEditor": "none",
     "rust-client.rustupPath": "/home/scotthal/.cargo/bin/rustup",
-    "[rust]": {
-      "editor.defaultFormatter": "rust-lang.rust"
-    },
     "java.home": "/home/scotthal/lang/java/jdk"
 }
