@@ -1,27 +1,27 @@
 {
-    "editor.fontFamily": "'Roboto Mono Medium', monospace",
-    "editor.fontSize": 12,
-    "editor.tabSize": 2,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "prettier.proseWrap": "always",
-    "editor.formatOnSave": true,
-    "workbench.startupEditor": "none",
-    "rust-client.rustupPath": "/home/scotthal/.cargo/bin/rustup",
-    "java.home": "/home/scotthal/lang/java/jdk",
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-    "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }  
+  "editor.fontFamily": "'Roboto Mono Medium', monospace",
+  "editor.fontSize": 12,
+  "editor.tabSize": 2,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "prettier.proseWrap": "always",
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "none",
+  "rust-client.rustupPath": "/home/scotthal/.cargo/bin/rustup",
+  "java.home": "/home/scotthal/lang/java/jdk",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
