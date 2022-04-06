@@ -8,7 +8,7 @@
   "editor.formatOnSave": true,
   "workbench.startupEditor": "none",
   "rust-client.rustupPath": "/home/scotthal/.cargo/bin/rustup",
-  "java.home": "/home/scotthal/lang/java/jdk",
+  "java.jdt.ls.java.home": "/home/scotthal/lang/java/jdk",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
