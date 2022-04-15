@@ -3,6 +3,7 @@ export PATH=$HOME/bin:$HOME/local/bin:$HOME/brew/bin:/usr/local/bin:/usr/bin:/bi
 if [ "$PS1" ]
 then
   unalias -a
+  alias bat='batcat'
   set -o vi
 
   export LANG=en_US.UTF-8

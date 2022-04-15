@@ -2,6 +2,7 @@ export PATH=$HOME/bin:$HOME/local/bin:$HOME/brew/bin:/usr/local/bin:/usr/bin:/bi
 
 bindkey -v
 unalias -m '*'
+alias bat='batcat'
 setopt NO_BEEP
 setopt AUTO_CD
 setopt AUTO_PUSHD
