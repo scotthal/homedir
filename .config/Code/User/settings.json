@@ -9,11 +9,15 @@
   "workbench.startupEditor": "none",
   "rust-client.rustupPath": "/home/scotthal/.cargo/bin/rustup",
   "java.jdt.ls.java.home": "/home/scotthal/lang/java/jdk",
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
