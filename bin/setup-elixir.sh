@@ -1,5 +1,5 @@
-ERLANG_VERSION='24.0.4'
-ELIXIR_VERSION='1.12.2'
+ERLANG_VERSION='25.0.3'
+ELIXIR_VERSION='1.13.4'
 curl -L https://raw.githubusercontent.com/kerl/kerl/master/kerl > /tmp/kerl
 install /tmp/kerl $HOME/bin/kerl
 rm -f /tmp/kerl
