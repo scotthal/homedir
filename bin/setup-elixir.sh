@@ -3,6 +3,7 @@ ELIXIR_VERSION='1.13.4'
 curl -L https://raw.githubusercontent.com/kerl/kerl/master/kerl > /tmp/kerl
 install /tmp/kerl $HOME/bin/kerl
 rm -f /tmp/kerl
+$HOME/bin/kerl update releases
 $HOME/bin/kerl build $ERLANG_VERSION $ERLANG_VERSION
 mkdir -p $HOME/lang/erlang
 $HOME/bin/kerl install $ERLANG_VERSION ~/lang/erlang/$ERLANG_VERSION
