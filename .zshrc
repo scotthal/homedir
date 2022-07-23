@@ -1,4 +1,8 @@
 export PATH=$HOME/bin:$HOME/local/bin:$HOME/brew/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/snap/bin
+if [ -f $HOME/.pathappend ]
+then
+  export PATH=$PATH:$(cat $HOME/.pathappend)
+fi
 
 bindkey -v
 unalias -m '*'
