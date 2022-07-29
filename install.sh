@@ -15,4 +15,12 @@ ENTRIES='
   .zshenv
   .zshrc
 '
-for entry in $ENTRIES; do cp -a $entry $HOME/$entry; done
+for entry in $ENTRIES
+do
+  if [ -d $HOME/$entry ]
+  then
+    cp -a $entry/* $HOME/$entry
+  else
+    cp -a $entry $HOME/$entry
+  fi
+done
