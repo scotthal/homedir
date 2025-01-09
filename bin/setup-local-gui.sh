@@ -18,7 +18,7 @@ rm -f /tmp/Roboto_Mono.zip
 apt-get -y install xfce4-terminal fonts-roboto fonts-croscore fonts-noto flatpak
 update-alternatives --set x-terminal-emulator /usr/bin/xfce4-terminal.wrapper
 
-curl -L 'https://download.mozilla.org/?product=firefox-devedition-latest&os=linux64&lang=en-US' | bzip2 -dc | tar -C /opt -xf -
+curl -L 'https://download.mozilla.org/?product=firefox-devedition-latest&os=linux64&lang=en-US' | xz -dc | tar -C /opt -xf -
 
 cat <<EOF > /usr/share/applications/firefox.desktop
 [Desktop Entry]
