@@ -1,0 +1,13 @@
+[font]
+normal = { family = "Roboto Mono", style = "Medium" }
+size = 9
+
+[colors.primary]
+foreground = "#FFFFFF"
+background = "#000000"
+
+[keyboard]
+bindings = [
+  { key = "N", mods = "Control|Shift", action = "CreateNewWindow" },
+]
+
