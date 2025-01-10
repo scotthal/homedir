@@ -1,2 +1,2 @@
-export JULIA_HOME=$HOME/lang/julia/julia
+export JULIA_HOME=$HOME/.local/julia/julia
 export PATH=$JULIA_HOME/bin:$PATH
