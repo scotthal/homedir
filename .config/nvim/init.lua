@@ -16,5 +16,5 @@ vim.cmd("set et")
 vim.cmd("set ts=2")
 vim.cmd("set sw=2")
 
-vim.cmd("colorscheme elflord")
+vim.cmd("colorscheme koehler")
 
