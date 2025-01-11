@@ -16,5 +16,9 @@ vim.cmd("set et")
 vim.cmd("set ts=2")
 vim.cmd("set sw=2")
 
-vim.cmd("colorscheme koehler")
+vim.cmd.colorscheme("koehler")
+
+require("config.lazy")
+
+vim.cmd.colorscheme("catppuccin-mocha")
 
