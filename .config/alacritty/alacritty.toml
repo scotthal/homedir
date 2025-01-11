@@ -11,3 +11,6 @@ bindings = [
   { key = "N", mods = "Control|Shift", action = "CreateNewWindow" },
 ]
 
+[window]
+dimensions = { columns = 80, lines = 30 }
+
