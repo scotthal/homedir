@@ -3,7 +3,5 @@
 	email = scott@hallocks.net
 [init]
 	defaultBranch = main
-[color]
-	ui = false
 [credential]
 	helper = cache --timeout 86400
