@@ -1,6 +1,7 @@
 set nocp
 filetype on
 syntax on
+set termguicolors
 
 set noru
 set laststatus=0
@@ -16,4 +17,5 @@ set et
 set ts=2
 set sw=2
 
-colorscheme elflord
+colorscheme catppuccin_mocha
+

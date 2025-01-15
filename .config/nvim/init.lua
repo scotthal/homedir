@@ -1,6 +1,7 @@
 vim.cmd("set nocp")
 vim.cmd("filetype on")
 vim.cmd("syntax on")
+vim.cmd("set termguicolors")
 
 vim.cmd("set noru")
 vim.cmd("set laststatus=0")

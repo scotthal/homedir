@@ -9,6 +9,7 @@ ENTRIES='
   .gitconfig
   .inputrc
   .tmux.conf
+  .vim
   .vimrc
   .xscreensaver
   .zlogout
