@@ -18,18 +18,6 @@ rm -f /tmp/Roboto_Mono.zip
 apt-get -y install xfce4-terminal fonts-roboto fonts-croscore fonts-noto flatpak
 update-alternatives --set x-terminal-emulator /usr/bin/xfce4-terminal.wrapper
 
-curl -L 'https://download.mozilla.org/?product=firefox-devedition-latest&os=linux64&lang=en-US' | xz -dc | tar -C /opt -xf -
-
-cat <<EOF > /usr/share/applications/firefox.desktop
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=Firefox
-Exec=/opt/firefox/firefox
-Icon=/opt/firefox/browser/chrome/icons/default/default64.png
-Categories=Network
-EOF
-
 curl -L https://update.code.visualstudio.com/latest/linux-x64/stable | gzip -dc | tar -C /opt -xf -
 mv /opt/VSCode-linux-x64 /opt/code
 
