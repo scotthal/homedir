@@ -1,4 +1,6 @@
 {
+  "catppuccin.italicComments" : false,
+  "catppuccin.italicKeywords" : false,
   "dotfiles.installCommand": "~/homedir/install.sh",
   "dotfiles.repository": "https://github.com/scotthal/homedir",
   "dotfiles.targetPath": "~/homedir",
@@ -11,7 +13,7 @@
   "java.jdt.ls.java.home": "/home/scotthal/lang/java/jdk",
   "prettier.proseWrap": "always",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.startupEditor": "none",
   "rust-client.rustupPath": "/home/scotthal/.cargo/bin/rustup",
   "[css]": {

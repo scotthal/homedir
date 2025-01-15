@@ -34,6 +34,7 @@ curl -L https://update.code.visualstudio.com/latest/linux-x64/stable | gzip -dc 
 mv /opt/VSCode-linux-x64 /opt/code
 
 su $USERNAME -lc "\
+  /opt/code/bin/code --install-extension catppuccin.catppuccin-vsc; \
   /opt/code/bin/code --install-extension dbaeumer.vscode-eslint; \
   /opt/code/bin/code --install-extension editorconfig.editorconfig; \
   /opt/code/bin/code --install-extension esbenp.prettier-vscode; \
