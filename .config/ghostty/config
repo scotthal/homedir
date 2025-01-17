@@ -1,0 +1,8 @@
+font-family = Roboto Mono
+font-style = Medium
+font-size = 9
+
+theme = catppuccin-mocha
+
+window-height = 35
+window-width = 80
