@@ -17,6 +17,10 @@ vim.cmd("set et")
 vim.cmd("set ts=2")
 vim.cmd("set sw=2")
 
+vim.diagnostic.config({
+  virtual_text = true,
+})
+
 vim.cmd.colorscheme("koehler")
 
 require("config.lazy")
