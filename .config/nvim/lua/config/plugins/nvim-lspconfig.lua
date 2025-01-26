@@ -19,6 +19,7 @@ return {
       lspconfig.html.setup {}
       lspconfig.jsonls.setup {}
       lspconfig.lua_ls.setup {}
+      lspconfig.rust_analyzer.setup {}
       lspconfig.ts_ls.setup {}
     end
   }
