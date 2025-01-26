@@ -16,6 +16,7 @@ return {
       local lspconfig = require("lspconfig")
       lspconfig.cssls.setup {}
       lspconfig.eslint.setup {}
+      lspconfig.gopls.setup {}
       lspconfig.html.setup {}
       lspconfig.jsonls.setup {}
       lspconfig.lua_ls.setup {}
