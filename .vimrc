@@ -3,8 +3,8 @@ filetype on
 syntax on
 set termguicolors
 
-set noru
-set laststatus=0
+set ru
+set laststatus=1
 set sm
 set ai
 set hlsearch
