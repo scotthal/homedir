@@ -1,21 +1,21 @@
-vim.cmd("set nocp")
-vim.cmd("filetype on")
-vim.cmd("syntax on")
-vim.cmd("set termguicolors")
+vim.opt.compatible = false
+vim.cmd.filetype("on")
+vim.cmd.syntax("on")
+vim.opt.termguicolors = true
 
-vim.cmd("set noru")
-vim.cmd("set laststatus=0")
-vim.cmd("set sm")
-vim.cmd("set ai")
-vim.cmd("set hlsearch")
+vim.opt.ruler = false
+vim.opt.laststatus = 0
+vim.opt.showmatch = true
+vim.opt.autoindent = true
+vim.opt.hlsearch = true
 
-vim.cmd("set vb")
-vim.cmd("set bs=\"\"")
-vim.cmd("set viminfo=\"\"")
+vim.opt.visualbell = true
+vim.opt.backspace = {}
+vim.opt.shada = {}
 
-vim.cmd("set et")
-vim.cmd("set ts=2")
-vim.cmd("set sw=2")
+vim.opt.expandtab = true
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
 
 vim.diagnostic.config({
   virtual_text = true,
