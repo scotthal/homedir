@@ -22,6 +22,8 @@ return {
       lspconfig.lua_ls.setup {}
       lspconfig.rust_analyzer.setup {}
       lspconfig.ts_ls.setup {}
+
+      vim.keymap.set("n", "<leader>o", vim.lsp.buf.format)
     end
   }
 }
