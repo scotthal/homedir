@@ -3,8 +3,8 @@ vim.cmd.filetype("on")
 vim.cmd.syntax("on")
 vim.opt.termguicolors = true
 
-vim.opt.ruler = false
-vim.opt.laststatus = 0
+vim.opt.ruler = true
+vim.opt.laststatus = 3
 vim.opt.showmatch = true
 vim.opt.autoindent = true
 vim.opt.hlsearch = true
