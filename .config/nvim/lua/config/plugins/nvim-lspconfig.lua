@@ -16,6 +16,7 @@ return {
     config = function()
       local lspconfig = require("lspconfig")
       local capabilities = require("blink.cmp").get_lsp_capabilities()
+      lspconfig.clangd.setup { capabilities = capabilities }
       lspconfig.cssls.setup { capabilities = capabilities }
       lspconfig.emmet_language_server.setup({ capabilities = capabilities })
       lspconfig.eslint.setup { capabilities = capabilities }
