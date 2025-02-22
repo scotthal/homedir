@@ -22,6 +22,7 @@ return {
       lspconfig.eslint.setup { capabilities = capabilities }
       lspconfig.gopls.setup { capabilities = capabilities }
       lspconfig.html.setup { capabilities = capabilities }
+      lspconfig.jedi_language_server.setup { capabilities = capabilities }
       lspconfig.jsonls.setup { capabilities = capabilities }
       lspconfig.lua_ls.setup { capabilities = capabilities }
       lspconfig.rust_analyzer.setup { capabilities = capabilities }
