@@ -27,7 +27,6 @@ su $USERNAME -lc "\
   /opt/code/bin/code --install-extension editorconfig.editorconfig; \
   /opt/code/bin/code --install-extension esbenp.prettier-vscode; \
   /opt/code/bin/code --install-extension github.github-vscode-theme; \
-  /opt/code/bin/code --install-extension hashicorp.terraform; \
   /opt/code/bin/code --install-extension jakebecker.elixir-ls; \
   /opt/code/bin/code --install-extension ms-azuretools.vscode-docker; \
   /opt/code/bin/code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools; \
@@ -35,8 +34,7 @@ su $USERNAME -lc "\
   /opt/code/bin/code --install-extension ms-vscode.cpptools; \
   /opt/code/bin/code --install-extension ms-vscode.powershell; \
   /opt/code/bin/code --install-extension ms-vscode-remote.vscode-remote-extensionpack; \
-  /opt/code/bin/code --install-extension pivotal.vscode-boot-dev-pack; \
-  /opt/code/bin/code --install-extension rebornix.ruby; \
+  /opt/code/bin/code --install-extension vmware.vscode-boot-dev-pack; \
   /opt/code/bin/code --install-extension rust-lang.rust-analyzer; \
   /opt/code/bin/code --install-extension visualstudioexptteam.vscodeintellicode; \
   /opt/code/bin/code --install-extension vscjava.vscode-java-pack
