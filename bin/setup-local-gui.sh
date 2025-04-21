@@ -15,7 +15,7 @@ su $USERNAME -lc "\
 
 rm -f /tmp/Roboto_Mono.zip
 
-apt-get -y install xfce4-terminal fonts-roboto fonts-croscore fonts-noto flatpak
+apt-get -y install xfce4-terminal libgtk4-layer-shell-dev fonts-roboto fonts-croscore fonts-noto flatpak
 update-alternatives --set x-terminal-emulator /usr/bin/xfce4-terminal.wrapper
 
 curl -L https://update.code.visualstudio.com/latest/linux-x64/stable | gzip -dc | tar -C /opt -xf -
