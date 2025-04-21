@@ -24,6 +24,7 @@ vim.diagnostic.config({
 vim.cmd.colorscheme("koehler")
 
 require("config.lazy")
+require("config.oil")
 
 vim.cmd.colorscheme("catppuccin-mocha")
 
