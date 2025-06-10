@@ -40,7 +40,7 @@ su $USERNAME -lc "\
   /opt/code/bin/code --install-extension vscjava.vscode-java-pack
 "
 
-flatpak remote add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 apt-get -y remove exim4-base postfix
 apt-get autoremove -y
