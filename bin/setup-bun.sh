@@ -6,4 +6,5 @@ unzip bun-linux-x64.zip
 install bun-linux-x64/bun $HOME/.local/bin/bun
 ln $HOME/.local/bin/bun $HOME/.local/bin/node
 rm -rf bun-linux-x64.zip bun-linux-x64
+$HOME/.local/bin/bun install -g vscode-langservers-extracted
 
