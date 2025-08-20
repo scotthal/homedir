@@ -8,6 +8,7 @@ vim.opt.laststatus = 3
 vim.opt.showmatch = true
 vim.opt.autoindent = true
 vim.opt.hlsearch = true
+vim.opt.signcolumn = "yes"
 
 vim.opt.visualbell = true
 vim.opt.backspace = {}
