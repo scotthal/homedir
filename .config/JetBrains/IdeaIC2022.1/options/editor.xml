@@ -1,7 +1,7 @@
 <application>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="12" />
-    <option name="FONT_FAMILY" value="Roboto Mono" />
+    <option name="FONT_FAMILY" value="RobotoMono Nerd Font" />
     <option name="FONT_REGULAR_SUB_FAMILY" value="Medium" />
     <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
     <option name="SECONDARY_FONT_FAMILY" value="JetBrains Mono" />

@@ -27,6 +27,6 @@ MiscNewTabAdjacent=FALSE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
 ScrollingLines=10000
-FontName=Roboto Mono Medium 9
+FontName=RobotoMono Nerd Font Medium 9
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 

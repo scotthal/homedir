@@ -1,14 +1,14 @@
 export USERNAME=scotthal
-curl -L https://storage.googleapis.com/scotthal-devmachine-public/Roboto_Mono.zip > /tmp/Roboto_Mono.zip
+curl -L https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/RobotoMono.zip > /tmp/Roboto_Mono.zip
 su $USERNAME -lc "\
   mkdir .fonts; \
   mkdir roboto-unz; \
   cd roboto-unz; \
   unzip /tmp/Roboto_Mono.zip; \
-  cp static/RobotoMono-Regular.ttf ../.fonts; \
-  cp static/RobotoMono-Medium.ttf ../.fonts; \
-  cp static/RobotoMono-SemiBold.ttf ../.fonts; \
-  cp static/RobotoMono-Bold.ttf ../.fonts; \
+  cp RobotoMonoNerdFont-Regular.ttf ../.fonts; \
+  cp RobotoMonoNerdFont-Medium.ttf ../.fonts; \
+  cp RobotoMonoNerdFont-SemiBold.ttf ../.fonts; \
+  cp RobotoMonoNerdFont-Bold.ttf ../.fonts; \
   cd ..\
   rm -rf roboto-unz \
 "
