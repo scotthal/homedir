@@ -9,7 +9,7 @@ su $USERNAME -lc "\
   cp RobotoMonoNerdFont-Medium.ttf ../.fonts; \
   cp RobotoMonoNerdFont-SemiBold.ttf ../.fonts; \
   cp RobotoMonoNerdFont-Bold.ttf ../.fonts; \
-  cd ..\
+  cd ..;\
   rm -rf roboto-unz \
 "
 
