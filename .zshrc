@@ -29,3 +29,8 @@ unset LESSCLOSE
 export LESSCLOSE
 export LESSHISTFILE=-
 export LESS='-XQLR'
+
+if command -v zoxide &> /dev/null
+then
+  eval "$(zoxide init zsh)"
+fi
