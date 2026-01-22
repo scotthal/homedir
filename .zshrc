@@ -28,7 +28,7 @@ export LESSOPEN
 unset LESSCLOSE
 export LESSCLOSE
 export LESSHISTFILE=-
-export LESS='-XQLR'
+export LESS='-FXQLR'
 
 if command -v zoxide &> /dev/null
 then
